@@ -1,0 +1,29 @@
+﻿@model MyViewModel
+
+
+@foreach (Teachers teacher in Model.Teachers)
+{
+    <h2>The Teacher Name is @teacher.TeacherName</h2>
+}
+
+<br />
+<br />
+<br />
+<br />
+
+@foreach (Parents parents in Model.Parents)
+{
+    <h2>The Parent Name is @parents.ParentName</h2>
+}
+
+<br />
+<br />
+<br />
+<br />
+
+
+
+@foreach (Students students in Model.Students)
+{
+    <h2>The Student Name is @students.StudentName</h2>
+}
